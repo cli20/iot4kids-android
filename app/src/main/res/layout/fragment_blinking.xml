@@ -1,0 +1,140 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adalaachref.iot4kids.BlinkingFragment">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Blinking an LED"
+        android:gravity="center"
+        android:textSize="45px"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+        <TextView
+            android:id="@+id/blinking1"
+            android:text="Here we will turn on and off an LED for durations of 1 second"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:textSize="30px"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="35dp" />
+        <TextView
+            android:text="You will need :"
+            android:id="@+id/blinking2"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:textSize="30px"
+            android:layout_below="@+id/blinking1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:text="- Arduino Uno"
+            android:id="@+id/blinking3"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:textSize="30px"
+            android:layout_below="@+id/blinking2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:text="- BreadBoard"
+            android:id="@+id/blinking4"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:textSize="30px"
+            android:layout_below="@+id/blinking3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="- LED"
+            android:id="@+id/blinking5"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:textSize="30px"
+            android:layout_below="@+id/blinking4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="- Wires"
+            android:id="@+id/blinking6"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:textSize="30px"
+            android:layout_below="@+id/blinking5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="- Resistor"
+            android:id="@+id/blinking7"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:textSize="30px"
+            android:layout_below="@+id/blinking6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Circuit :"
+            android:id="@+id/blinking8"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:textSize="30px"
+            android:layout_below="@+id/blinking7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"/>
+        <ImageView
+            android:id="@+id/blinking9"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/blink2"
+            android:layout_below="@id/blinking8"/>
+        <TextView
+            android:text="Code :"
+            android:id="@+id/blinking10"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:textSize="30px"
+            android:layout_below="@+id/blinking9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:id="@+id/blinking11"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/code1"
+            android:layout_below="@id/blinking10"/>
+        <Button
+            android:layout_below="@id/blinking11"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@color/primary"
+            android:text="Next"
+            android:id="@+id/btnBlink"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

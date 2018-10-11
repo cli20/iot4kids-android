@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adalaachref.iot4kids.BoardFragment5">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="132dp"
+                android:layout_marginStart="132dp"
+                android:layout_marginTop="94dp"
+                android:alpha="0.4"
+                android:src="@drawable/brd5" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="70dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="21dp"
+                android:text="Atmega328 microcontroller"
+                android:textColor="#ff0000"
+                android:textSize="40px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="360dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/textView15"
+                android:layout_alignStart="@+id/textView15"
+                android:layout_below="@+id/textView15"
+                android:text="The Atmega328 is a single-chip microcontroller created by Atmel in the megaAVR family."
+                android:textSize="40px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="430dp"
+                android:layout_height="290dp"
+                android:layout_alignLeft="@+id/textView16"
+                android:layout_alignStart="@+id/textView16"
+                android:layout_alignTop="@+id/imageView6"
+                android:layout_marginTop="76dp"
+                android:text="The Atmel 8-bit AVR RISC-based microcontroller combines 32 kB ISP flash memory with read-while-write capabilities, 1 kB EEPROM,2kB SPAM,23 general purpose I/O lines,32 general purpose working registers,three flexible timer counters with compare modes internal and external interrupts,serial programmable USART,a byte-oriented 2-wire serial interface,SPI serial port,6-channel 10 bit A/D converter,programmable watchdog timer,five software selectable power saving modes. "
+                android:textSize="40px"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

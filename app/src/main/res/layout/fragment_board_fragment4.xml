@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adalaachref.iot4kids.BoardFragment4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/brd4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="ICSP Pins"
+        android:textColor="#ff0000"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:id="@+id/textView14" />
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="230dp"
+            android:textSize="40px"
+            android:textStyle="bold"
+            android:text="ICSP stands for In-Circuit Serial Programming and it is a protocol used to programme micro controllers like the PIC and the AVR chips,etc .ICSP pins are used for programming arduino or atmega chip by another arduino or connecting board to a computer for uploading a sketch (if usb port is not available on the board like the pro minis)."
+            android:layout_below="@+id/textView14"
+            android:layout_alignLeft="@+id/textView14"
+            android:layout_alignStart="@+id/textView14"
+            android:layout_marginTop="30dp" />
+    </RelativeLayout>
+
+</FrameLayout>

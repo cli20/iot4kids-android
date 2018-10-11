@@ -1,0 +1,69 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adalaachref.iot4kids.BoardFragment7">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<ImageView
+    android:alpha="0.4"
+    android:layout_width="250dp"
+    android:layout_height="300dp"
+    android:src="@drawable/brd7"
+    android:layout_centerVertical="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginLeft="183dp"
+    android:layout_marginStart="183dp" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="Vin: "
+        android:textColor="#ff0000"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView18" />
+        <TextView
+            android:textSize="40px"
+            android:textStyle="bold"
+            android:text="Provides Power to the arduino"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_alignBaseline="@+id/textView18"
+            android:layout_alignBottom="@+id/textView18"
+            android:layout_toRightOf="@+id/textView18"
+            android:layout_toEndOf="@+id/textView18" />
+        <TextView
+            android:textColor="#ff0000"
+            android:textSize="40px"
+            android:textStyle="bold"
+            android:text="Board :"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView18"
+            android:layout_alignLeft="@+id/textView18"
+            android:layout_alignStart="@+id/textView18"
+            android:id="@+id/textView19" />
+        <TextView
+            android:textSize="40px"
+            android:textStyle="bold"
+            android:text="GND: Ground pins.                 5V:Provides 5V DC output.                 3.3V:Provides 3.3 DC output.                 Reset:Resets the boards and the program restarts,initialising again.                 IOREF:Gives the voltage corresponding to the i/o of the respective board."
+            android:layout_width="260dp"
+            android:layout_height="250dp"
+            android:layout_alignBaseline="@+id/textView19"
+            android:layout_alignBottom="@+id/textView19"
+            android:layout_toRightOf="@+id/textView19"
+            android:layout_toEndOf="@+id/textView19" />
+    </RelativeLayout>
+
+</FrameLayout>

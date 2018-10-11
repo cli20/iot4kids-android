@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adalaachref.iot4kids.BoardFragment3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/brd3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.4"/>
+    <TextView
+        android:textColor="#ff0000"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="Digital Pins"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12"
+        android:id="@+id/textView13" />
+        <TextView
+            android:textSize="40px"
+            android:textStyle="bold"
+            android:layout_width="340dp"
+            android:layout_height="230dp"
+            android:text="The pins on the Arduino can be configured as either inputs or outputs. The pins 3,5,6,9,10 and 11 are PWM enabled,these pins can mimic analog output and input using pulse width modulation.PWM is achieved by rapidly varying the output between hight and low for the desired percentage of time."
+            android:layout_marginLeft="86dp"
+            android:layout_marginStart="86dp"
+            android:id="@+id/textView12"
+            android:layout_marginTop="23dp"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</FrameLayout>

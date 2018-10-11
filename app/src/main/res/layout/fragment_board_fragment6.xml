@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adalaachref.iot4kids.BoardFragment6">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<ImageView
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:alpha="0.4"
+    android:src="@drawable/brd6"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginRight="173dp"
+    android:layout_marginEnd="173dp"
+    android:layout_marginTop="53dp"
+    android:id="@+id/imageView4" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Power Supply Jack"
+        android:textColor="#ff0000"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:layout_marginRight="51dp"
+        android:layout_marginEnd="51dp"
+        android:id="@+id/textView17"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_marginTop="23dp" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:textSize="40px"
+            android:textStyle="bold"
+            android:text="Accepts 5.5mm/2.1mm DC Barrel Plug,Centre Position.Recommended Voltage:9V-12V @ 2A"
+            android:layout_below="@+id/textView17"
+            android:layout_alignLeft="@+id/textView17"
+            android:layout_alignStart="@+id/textView17"
+            android:layout_marginTop="19dp" />
+    </RelativeLayout>
+
+</FrameLayout>

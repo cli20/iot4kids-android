@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adalaachref.iot4kids.BoardFragment8">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="161dp"
+            android:layout_marginRight="161dp"
+            android:alpha="0.4"
+            android:src="@drawable/brd7" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="72dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="17dp"
+            android:text="Analog Pins"
+            android:textColor="#ff0000"
+            android:textSize="40px"
+            android:textStyle="bold"
+            android:id="@+id/textView20" />
+        <TextView
+            android:textSize="40px"
+            android:textStyle="bold"
+            android:text="An analog signal is one that can take on any number of values,unlike a digital signal wich has only two values:HIGH and LOW.to measure the value of analog signals,the arduino has built-in analog-to-digital converter (ADC)."
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_alignTop="@+id/imageView5"
+            android:layout_alignLeft="@+id/textView20"
+            android:layout_alignStart="@+id/textView20"
+            android:layout_marginTop="34dp" />
+    </RelativeLayout>
+
+</FrameLayout>
